@@ -31,7 +31,7 @@ El repositori està dividit en fases:
 - GitHub  
 - ChatGPT (IA)
 
-![imagen](https://tenor.com/es-AR/search/sponge-bob-money-gifs)
+![gif-de-prova](imatges/spongebob-spongebob-meme.gif)
 
 
 ---
