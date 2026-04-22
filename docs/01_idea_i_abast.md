@@ -85,7 +85,7 @@ He utilitzat aquesta estructura per definir el disseny del joc abans de comença
 ## 12. Proposta final escollida
 Es manté la idea del joc del laberint 2D amb enemics, temporitzador i moviment en graella.
 
-En quant a l’IDE, inicialment volia fer servir JavaFX, que és el que em recomanava la IA perquè li havia explicat que sé programar en Java, però per tal de tenir un entorn millor visualment vaig decidir quedar-me amb Godot.
+Inicialment havia considerat utiltizar Java amb JavaFX per desenvolupar el joc, ja que és el llenguatge amb el que tinc experiència, però per tal de tenir un entorn millor visual i eines específiques per a la creació 2D, finalment vaig decidir quedarme amb Godot.
 
 També vaig considerar Roblox Studio, però no vaig voler complicar-me al no haver-lo fet servir mai.
 
