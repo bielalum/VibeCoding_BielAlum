@@ -75,9 +75,13 @@ Les entitats principals del sistema són:
 
 ## 5. Explicació del diagrama de classes
 
-Aquest diagrama mostra l’estructura del sistema i les relacions entre les entitats del joc.
+El diagrama de classes representa l’estructura del sistema i com es relacionen les diferents entitats del joc.
 
-### PlantUML - Diagrama de classes
+La classe **GameManager** és el nucli del sistema, ja que controla el flux del joc i coordina la resta d’elements. El **Jugador** és l’element controlat per l’usuari, mentre que els **Enemics** són elements autònoms que representen el perill dins del laberint. El **Laberint** defineix l’espai del joc i gestiona les col·lisions.
+
+Aquest disseny permet separar responsabilitats i facilita la implementació posterior en Godot.
+
+### Aquest es el codi que vaig enganxar a PlantUML:
 
 ```plantuml
 @startuml
@@ -119,3 +123,26 @@ GameManager --> Jugador
 GameManager --> Enemic
 GameManager --> Laberint
 @enduml
+  + esColisio()
+}
+
+GameManager --> Jugador
+GameManager --> Enemic
+GameManager --> Laberint
+@enduml
+
+---
+
+## 6. Explicació del diagrama de comportament
+
+El diagrama de comportament representa el flux principal del joc durant una partida, és a dir, el bucle de joc.
+
+El joc comença amb la inicialització i entra en un bucle mentre l’estat sigui “jugant”. En cada iteració es llegeix el moviment del jugador, s’actualitza la seva posició, es mouen els enemics i es redueix el temps restant.
+
+Després es comproven les condicions del joc:
+
+- si el jugador toca un enemic → es reinicia la seva posició  
+- si arriba a la sortida → victòria  
+- si el temps arriba a zero → derrota  
+
+### Aquest es el codi que vaig enganxar a PlantUML:
