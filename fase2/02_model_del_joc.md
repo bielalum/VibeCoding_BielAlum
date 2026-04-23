@@ -81,7 +81,7 @@ La classe **GameManager** és el nucli del sistema, ja que controla el flux del 
 
 Aquest disseny permet separar responsabilitats i facilita la implementació posterior en Godot.
 
-### Aquest es el codi que vaig enganxar a PlantUML:
+### Aquest es el codi que he enganxat a PlantUML:
 
 ```plantuml
 @startuml
@@ -135,6 +135,7 @@ Enemic --> Laberint
 
 ---
 
+
 ## 6. Explicació del diagrama de comportament
 
 El diagrama de comportament representa el flux principal del joc durant una partida, és a dir, el bucle de joc.
@@ -147,7 +148,7 @@ Després es comproven les condicions del joc:
 - si arriba a la sortida → victòria  
 - si el temps arriba a zero → derrota  
 
-### Aquest es el codi que vaig enganxar a PlantUML:
+### Aquest es el codi que he enganxat a PlantUML:
 
 @startuml
 
