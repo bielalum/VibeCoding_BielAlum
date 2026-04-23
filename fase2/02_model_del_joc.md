@@ -85,50 +85,52 @@ Aquest disseny permet separar responsabilitats i facilita la implementació post
 
 ```plantuml
 @startuml
-class GameManager {
-  - tempsRestant
-  - estatJoc
+
+class GestorJoc {
+  - tempsRestant : float
+  - estatJoc : String
   + iniciarJoc()
   + actualitzar()
   + comprovarVictoria()
   + comprovarDerrota()
-  + reiniciarJugador()
 }
 
 class Jugador {
-  - posicioX
-  - posicioY
-  - velocitat
-  + moure()
-  + actualitzar()
+  - posicio : Vector2
+  - velocitat : float
+  + moure(direccio)
+  + reiniciarPosicio()
 }
 
 class Enemic {
-  - posicioX
-  - posicioY
-  - direccio
-  - velocitat
+  - posicio : Vector2
+  - direccio : Vector2
+  - velocitat : float
   + moure()
   + canviarDireccio()
 }
 
 class Laberint {
-  - amplada
-  - alçada
-  - mapa
-  + esColisio()
+  - parets : List
+  - posicioSortida : Vector2
+  + hiHaColisio(posicio) : boolean
+  + esSortida(posicio) : boolean
 }
 
-GameManager --> Jugador
-GameManager --> Enemic
-GameManager --> Laberint
-@enduml
-  + esColisio()
+class Temporitzador {
+  - tempsRestant : float
+  + restarTemps()
+  + esTempsAcabat() : boolean
 }
 
-GameManager --> Jugador
-GameManager --> Enemic
-GameManager --> Laberint
+GestorJoc --> Jugador
+GestorJoc --> Enemic
+GestorJoc --> Laberint
+GestorJoc --> Temporitzador
+
+Jugador --> Laberint
+Enemic --> Laberint
+
 @enduml
 
 ---
@@ -146,3 +148,39 @@ Després es comproven les condicions del joc:
 - si el temps arriba a zero → derrota  
 
 ### Aquest es el codi que vaig enganxar a PlantUML:
+
+@startuml
+
+start
+
+:Iniciar joc;
+:Inicialitzar jugador, enemics i temporitzador;
+
+while (Joc en marxa?) is (Sí)
+
+  :Llegir entrada del jugador;
+  :Moure jugador;
+
+  :Moure enemics;
+
+  :Reduir temps;
+
+  if (Jugador toca enemic?) then (Sí)
+    :Reiniciar posició del jugador;
+  endif
+
+  if (Jugador arriba a la sortida?) then (Sí)
+    :Victòria;
+    stop
+  endif
+
+  if (Temps <= 0?) then (Sí)
+    :Derrota;
+    stop
+  endif
+
+endwhile
+
+stop
+
+@enduml
