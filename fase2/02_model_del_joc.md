@@ -132,7 +132,7 @@ Jugador --> Laberint
 Enemic --> Laberint
 
 @enduml
-
+```
 ---
 
 
@@ -149,7 +149,7 @@ Després es comproven les condicions del joc:
 - si el temps arriba a zero → derrota  
 
 ### Aquest es el codi que he enganxat a PlantUML:
-
+```plantuml
 @startuml
 
 start
@@ -185,3 +185,4 @@ endwhile
 stop
 
 @enduml
+```
