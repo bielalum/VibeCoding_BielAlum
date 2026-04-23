@@ -86,7 +86,7 @@ La classe **Joc (GameManager)** és l’element central que controla el flux de 
 
 Les relacions mostren que el joc conté i coordina la resta d’entitats, cosa que permet una separació clara de responsabilitats i facilita la implementació posterior.
 
-![diagrama-classes](imatges/Diagrama_classes.png)
+![diagrama-classes](imatges/Diagrama-classes.png)
 
 ---
 
@@ -105,6 +105,6 @@ Després es comproven les condicions del joc:
 
 Aquest diagrama reflecteix directament el bucle de joc definit a la fase 1.
 
-![diagrama-comportament](imatges/Diagrama_comportament.png)
+![diagramaComportament](imatges/Diagrama-comportament.png)
 
 ---
