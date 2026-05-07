@@ -17,7 +17,7 @@ En aquesta fase inicial, s'han pres decisions clau per garantir la jugabilitat:
 ## 3. Captures de pantalla
 
 ### Jerarquia de nodes a l'editor
-![Jerarquia de nodes](imatges/jerarquiapng)
+![Jerarquia de nodes](imatges/jerarquia.png)
 
 ### Laberint complet dissenyat al TileMap
 ![Laberint complet](imatges/laberint.png)
