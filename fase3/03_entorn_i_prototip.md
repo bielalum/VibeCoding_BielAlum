@@ -17,16 +17,16 @@ En aquesta fase inicial, s'han pres decisions clau per garantir la jugabilitat:
 ## 3. Captures de pantalla
 
 ### Jerarquia de nodes a l'editor
-![Jerarquia de nodes](jerarquiapng)
+![Jerarquia de nodes](imatges/jerarquiapng)
 
 ### Laberint complet dissenyat al TileMap
-![Laberint complet](laberint.png)
+![Laberint complet](imatges/laberint.png)
 
 ### Codi player.gd (moviment i col·lisions)
-![Codi del jugador](codi_jugador.png)
+![Codi del jugador](imatges/codi_jugador.png)
 
 ### Joc en execució amb el personatge a l'interior
-![Joc en execució](joc.png)
+![Joc en execució](imatges/joc.png)
 
 ## 4. Condicions mínimes i evidències
 Actualment, el projecte disposa d'un **prototip funcional** que compleix amb els requisits mínims d'aquesta fase:
