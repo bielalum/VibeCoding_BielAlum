@@ -23,7 +23,7 @@ En aquesta fase inicial, s'han pres decisions clau per garantir la jugabilitat:
 ![Laberint complet](imatges/laberint.png)
 
 ### Codi player.gd (moviment i col·lisions)
-![Codi del jugador](imatges/codi-jugador.png)
+![Codi del jugador](imatges/codijugador.png)
 
 ### Joc en execució amb el personatge a l'interior
 ![Joc en execució](imatges/joc.png)
