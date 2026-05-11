@@ -17,16 +17,16 @@ En aquesta fase inicial, s'han pres decisions clau per garantir la jugabilitat:
 ## 3. Captures de pantalla
 
 ### Jerarquia de nodes a l'editor
-![Jerarquia de nodes](./imatges/jerarquia.png)
+![Jerarquia de nodes](https://raw.githubusercontent.com/bielalum/VibeCoding_BielAlum/main/imatges/jerarquia.png)
 
 ### Laberint complet dissenyat al TileMap
-![Laberint complet](./imatges/laberint.png)
+![Laberint complet](https://raw.githubusercontent.com/bielalum/VibeCoding_BielAlum/main/imatges/laberint.png)
 
 ### Codi player.gd (moviment i col·lisions)
-![Codi del jugador](./imatges/codijugador.png)
+![Codi del jugador](https://raw.githubusercontent.com/bielalum/VibeCoding_BielAlum/main/imatges/codijugador.png)
 
 ### Joc en execució amb el personatge a l'interior
-![Joc en execució](./imatges/joc.png)
+![Joc en execució](https://raw.githubusercontent.com/bielalum/VibeCoding_BielAlum/main/imatges/joc.png)
 
 ## 4. Condicions mínimes i evidències
 Actualment, el projecte disposa d'un **prototip funcional** que compleix amb els requisits mínims d'aquesta fase:
