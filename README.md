@@ -31,7 +31,5 @@ El repositori està dividit en fases:
 - GitHub  
 - ChatGPT (IA)
 
-![gif-de-prova](imatges/spongebob-spongebob-meme.gif)
-
 
 ---
