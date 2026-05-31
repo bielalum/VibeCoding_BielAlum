@@ -63,6 +63,6 @@ func _on_body_entered(body):
 
 ---
 
-## 3. Conclusions
+## 3. Conclusió
 
 Les proves realitzades han permès validar correctament les mecàniques principals del videojoc, garantint que el moviment del personatge, la recollida de monedes, el sistema de temps, les condicions de derrota i la pantalla de victòria funcionen com jo volia.
