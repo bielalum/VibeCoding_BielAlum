@@ -30,7 +30,7 @@ Durant les proves de testeig he trobat problemes de lògica i disseny que he hag
 
 * **Solució:** Vaig anar a l'inspector del `TextureButton`, vaig activar la propietat `Ignore Texture Size` i vaig canviar el mode d'estirament a `Scale`. Després vaig anar a la propietat `Process` de les pantalles i vaig posar el mode en `Always` perquè els botons funcionin encara que el joc estigui congelat.
 
-> **[Aquí iria una imagen del Inspector de Godot mostrando la configuración del TextureButton y el modo Process en Always]**
+![Configuració del TextureButton i Process Always](imatges/texturebutton_process_always.png)
 
 * **Comprovació:** Vaig tornar a iniciar el joc, vaig deixar que s'acabès el temps i al sortir la pantalla de derrota, el botó es veia a la mida perfecta i al fer-hi clic es reiniciava la partida correctament.
 
