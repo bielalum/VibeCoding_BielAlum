@@ -15,7 +15,7 @@ Projecte desenvolupat per **Biel Alum**
 
 A continuació es mostra l'enllaç a la demostració guiada del sistema desenvolupat, on s'expliquen les mecàniques principals, les decisions de disseny i la lògica del codi:
 
-👉 **Fes clic aquí per veure el vídeo del Gameplay (https://drive.google.com/drive/folders/1AfVpzVLlcHGtpgMhXOZzZBScJCPoipGR?usp=sharing)** 
+👉 **Fes clic aquí per veure el vídeo del Gameplay https://drive.google.com/drive/folders/1AfVpzVLlcHGtpgMhXOZzZBScJCPoipGR?usp=sharing** 
 
 ---
 
