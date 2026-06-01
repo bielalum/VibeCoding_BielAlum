@@ -13,7 +13,7 @@ A partir del test de control de la fase anterior, s'han implementat 3 millores p
 * **Millora aplicada:** Vaig refer part del mapa afegint molts més blocs de paret i obstacles físics a la pantalla. D'aquesta manera, el camí es torna molt més estret, obligant el jugador a saltar amb precisió i a esquivar camins tallats per trobar les monedes.
 * **Efecte en el projecte:** Ha canviat completament l'experiència de l'usuari, ara cada error de moviment et fa perdre temps.
 
-  **Comparació abans i després
+### Comparació abans i després
 
 ![Abans i despres](https://raw.githubusercontent.com/bielalum/VibeCoding_BielAlum/main/imatges/abans_despres.png)
 ---
