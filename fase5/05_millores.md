@@ -32,7 +32,7 @@ A partir del test de control de la fase anterior, s'han implementat 3 millores p
 
 ---
 
-## 2. Respostes a les Preguntes del Control
+## 2. Respostes a les preguntes
 
 * **Quines millores has aplicat?** Millores en el disseny del mapa (obstacles), equilibri del temps d'speedrun i estabilitat del codi.
 * **Per què eren necessàries?** Perquè al ser un joc curt, necessitava algo més que incentivès al jugador a jugar-hi, en aquest cas la dificultat.
@@ -42,7 +42,7 @@ A partir del test de control de la fase anterior, s'han implementat 3 millores p
 
 ---
 
-## 3. Millores Pendents (Línies Futures)
+## 3. Millores Pendents
 
 Si hagués tingut més temps per al desenvolupament d'aquest projecte, m'hauria agradat afegir les següents funcionalitats que queden pendents com a futures millores:
 
